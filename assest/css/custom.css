@@ -29,6 +29,9 @@ a {
     background: -webkit-linear-gradient(top left, #50a3a2 0%, #78cc6d 100%);
     background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
     padding: 40px 0 45px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .overlay-bg-section .sidbar-menu {
     background: #fff;
@@ -64,6 +67,23 @@ a {
     position: relative;
     z-index: 1;
 }
+.resume-all-section::-webkit-scrollbar {
+    width: 3px;
+  }
+/* Track */
+.resume-all-section::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+  }
+  
+  /* Handle */
+  .resume-all-section::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .resume-all-section::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 .profile-section:before {
     content: "";
     position: absolute;
